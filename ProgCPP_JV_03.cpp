@@ -6,10 +6,10 @@ int main()
 {
 	int idade;
     float altura;
-	cout << "Introduza sua idade: ";
-	cin >> idade;
-    cout << "Introduza sua altura: ";
-    cin >> altura;
-	cout << "Yor age is: " << idade << " e sua altura: " << altura << endl;
+
+	cout << "Introduza sua idade e altura: ";
+	cin >> idade >> altura;
+
+	cout << "sua idade: " << idade << " e sua altura: " << altura << endl;
 	return 0;
 }
